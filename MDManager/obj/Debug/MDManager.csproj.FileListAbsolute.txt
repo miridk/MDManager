@@ -1,0 +1,95 @@
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\MDManager.exe.config
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.csproj.AssemblyReference.cache
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.Form1.resources
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.Properties.Resources.resources
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.csproj.GenerateResource.cache
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.csproj.CoreCompileInputs.cache
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\MetroFramework.Design.dll
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\MetroFramework.dll
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\MDManager.exe.config
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\Cake.Powershell.dll
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\MetroFramework.Design.dll
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\MetroFramework.dll
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\System.Management.Automation.dll
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\Cake.Powershell.pdb
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\bin\Debug\Cake.Powershell.xml
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.csproj.AssemblyReference.cache
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.Form1.resources
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.Properties.Resources.resources
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.csproj.GenerateResource.cache
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.csproj.CoreCompileInputs.cache
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateSolution.resources
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateProject.resources
+C:\Udv\MicroserviceDeveloperManager\Old\winforms trial\MDManager\obj\Debug\MDManager.Forms.Home.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\MDManager.exe.config
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\MDManager.exe
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\MDManager.pdb
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\Cake.Powershell.dll
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\MetroFramework.Design.dll
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\MetroFramework.dll
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\System.Management.Automation.dll
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\Cake.Powershell.pdb
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\bin\Debug\Cake.Powershell.xml
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.csproj.AssemblyReference.cache
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.Form1.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateProject.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateSolution.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.Forms.Home.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.Properties.Resources.resources
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.csproj.GenerateResource.cache
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.csproj.CoreCompileInputs.cache
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.exe
+E:\Microservice Developer Manager\In development\winforms trial\MDManager\obj\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\Cake.Powershell.dll
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\System.Management.Automation.dll
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\Cake.Powershell.pdb
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\bin\Debug\Cake.Powershell.xml
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateProject.resources
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.Forms.CreateSolution.resources
+C:\Udv\MicroserviceDeveloperManager\winforms trial\MDManager\obj\Debug\MDManager.Forms.Home.resources
+D:\MDManager\bin\Debug\MDManager.exe.config
+D:\MDManager\bin\Debug\MDManager.exe
+D:\MDManager\bin\Debug\MDManager.pdb
+D:\MDManager\bin\Debug\Cake.Powershell.dll
+D:\MDManager\bin\Debug\MetroFramework.Design.dll
+D:\MDManager\bin\Debug\MetroFramework.dll
+D:\MDManager\bin\Debug\System.Management.Automation.dll
+D:\MDManager\bin\Debug\Cake.Powershell.pdb
+D:\MDManager\bin\Debug\Cake.Powershell.xml
+D:\MDManager\obj\Debug\MDManager.csproj.AssemblyReference.cache
+D:\MDManager\obj\Debug\MDManager.Form1.resources
+D:\MDManager\obj\Debug\MDManager.Forms.CreateProject.resources
+D:\MDManager\obj\Debug\MDManager.Forms.CreateSolution.resources
+D:\MDManager\obj\Debug\MDManager.Forms.Home.resources
+D:\MDManager\obj\Debug\MDManager.Properties.Resources.resources
+D:\MDManager\obj\Debug\MDManager.csproj.GenerateResource.cache
+D:\MDManager\obj\Debug\MDManager.csproj.CoreCompileInputs.cache
+D:\MDManager\obj\Debug\MDManager.exe
+D:\MDManager\obj\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\MDManager.exe.config
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\MDManager.pdb
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\Cake.Powershell.dll
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\MetroFramework.Design.dll
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\MetroFramework.dll
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\System.Management.Automation.dll
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\Cake.Powershell.pdb
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\bin\Debug\Cake.Powershell.xml
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.csproj.AssemblyReference.cache
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.Form1.resources
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.Forms.CreateProject.resources
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.Forms.CreateSolution.resources
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.Forms.Home.resources
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.Properties.Resources.resources
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.csproj.GenerateResource.cache
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.csproj.CoreCompileInputs.cache
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.exe
+C:\Udv\MicroserviceDeveloperManager\MicroserviceDeveloperManager\MDManager\obj\Debug\MDManager.pdb

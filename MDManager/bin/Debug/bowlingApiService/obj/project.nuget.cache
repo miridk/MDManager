@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EE4R3Ra0aP7rspHhNSjDinBC3jcTNkeSkwuPtrn6f3FCcrYkkxDNMsSce1r2WHwCcMf5iW5zNcJfHNeA4C2qMg==",
+  "success": true,
+  "projectFilePath": "C:\\Udv\\MicroserviceDeveloperManager\\winforms trial\\MDManager\\bin\\Debug\\bowlingApiService\\bowlingApiService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
