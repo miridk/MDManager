@@ -1,0 +1,18 @@
+﻿<Window x:Class="DMGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMGenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="replaceButton" Content="Replace" HorizontalAlignment="Left" Margin="336,94,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="64"/>
+        <TextBox x:Name="tagNameTextBox" HorizontalAlignment="Left" Margin="201,94,0,0" TextWrapping="Wrap" Text="Tag Name" VerticalAlignment="Top" Width="120"/>
+        <Label Content="-&gt;" HorizontalAlignment="Left" Margin="178,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textToReplaceTextBox" HorizontalAlignment="Left" Margin="58,94,0,0" TextWrapping="Wrap" Text="Text to replace" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Find" HorizontalAlignment="Left" Margin="53,71,0,0" VerticalAlignment="Top"/>
+        <Label Content="Replace" HorizontalAlignment="Left" Margin="196,71,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -5,6 +5,7 @@ Create API template ready to use with app
 	Remove unnessesary code
 	Add Tags
 	Pack the template as noget package
+	I have corrected too much in the template!!!!!!!!!! REDO
 
 Create flowbased gui
 	Create Add Service flow

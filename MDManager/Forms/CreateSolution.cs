@@ -58,11 +58,6 @@ namespace MDManager.Forms
                 {
                     AddCRUDConfiguration(propsJoined, typesJoined, requiredJoined, keysJoined, SolutionFolder, WebApiName, ProjectName, SolutionInstallPath);
                 }
-
-                if (runWebAPICheckBox.Checked)
-                {
-                    RunWebApi(SolutionFolder, WebApiName, HostName, ApiPortNo, ProjectName, SolutionInstallPath);
-                }
             }
 
             if (dockerComposeCheckBox.Checked)
@@ -76,10 +71,6 @@ namespace MDManager.Forms
                 if (checkBoxPrime.Checked)
                 {
                 PrimeNGAndSetup(FrontendName, SolutionFolder, SolutionInstallPath);
-                }
-                if (checkBoxServe.Checked)
-                {
-                NGServe(SolutionInstallPath, FrontendName, SolutionFolder);
                 }
             }
         }
@@ -186,49 +177,6 @@ namespace MDManager.Forms
             }
         }
 
-        public void NGServe(string SolutionInstallPath, string FrontendName, string SolutionFolder)
-        {
-            string path = SolutionInstallPath + "\\" + SolutionFolder + "\\" + FrontendName;
-
-            // this will be the path to your app
-            var workingDirectory = @"" + path + "";
-
-            // location of ng command 
-            var command = @"ng.cmd";
-
-            // any arguments you want to pass to ng
-            //var arguments = "build --prod --base-href /helloworld/ --output-path=prod";
-            var arguments = "serve -o";
-
-            var process = new Process();
-            var currentDirectory = Environment.CurrentDirectory;
-            try
-            {
-                Environment.CurrentDirectory = workingDirectory;
-                process.StartInfo.FileName = command;
-                process.StartInfo.Arguments = arguments;
-                process.StartInfo.CreateNoWindow = true;
-                process.StartInfo.UseShellExecute = false;
-                process.StartInfo.WorkingDirectory = workingDirectory;
-                process.StartInfo.RedirectStandardInput = true;
-                process.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
-                process.StartInfo.RedirectStandardOutput = true;
-                process.StartInfo.RedirectStandardError = true;
-                process.Start();
-
-                // wait for the app to run and grab any output/errors generated
-                process.WaitForExit();
-                var output = process.StandardOutput.ReadToEnd();
-                var errors = process.StandardError.ReadToEnd();
-                Console.WriteLine("Output: " + output);
-                Console.WriteLine("Errors: " + errors);
-            }
-            finally
-            {
-                Environment.CurrentDirectory = currentDirectory;
-            }
-        }
-
         public void InstallWebApi(string SolutionFolder, string WebApiName, string SolutionInstallPath)
         {
             PowerShell ps = PowerShell.Create();
@@ -264,19 +212,6 @@ namespace MDManager.Forms
             ps.Invoke();
         }
 
-        public void RunWebApi(string SolutionFolder, string WebApiName, string HostName, string ApiPortNo, string ProjectName, string SolutionInstallPath)
-        {
-            PowerShell ps = PowerShell.Create();
-            ps.AddScript(File.ReadAllText(@"..\..\Scripts\webapi4.ps1"))
-                    .AddParameter(null, SolutionFolder)
-                    .AddParameter(null, WebApiName)
-                    .AddParameter(null, HostName)
-                    .AddParameter(null, ApiPortNo)
-                    .AddParameter(null, ProjectName)
-                    .AddParameter(null, SolutionInstallPath)
-            .Invoke();
-        }
-
         public void AddDocker(string SolutionFolder, string WebApiName, string SolutionInstallPath, string ApiPortNo)
         {
             PowerShell ps = PowerShell.Create();
@@ -288,7 +223,6 @@ namespace MDManager.Forms
             .Invoke();
         }
 
-        //int B = 1;
         private void addPropertyButton_Click(object sender, EventArgs e)
         {          
             if (propertyNameTextBox.Text != "")
@@ -329,17 +263,6 @@ namespace MDManager.Forms
 
         }
         
-        //public System.Windows.Forms.Label AddPropertyLabel()
-        //{
-        //    System.Windows.Forms.Label label = new System.Windows.Forms.Label();
-        //    this.Controls.Add(label);
-        //    label.Top = B * 228;
-        //    label.Left = 450;
-        //    label.Text = "New Property" + this.B.ToString();
-        //    B = B + 1;
-
-        //    return label;
-        //}
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 

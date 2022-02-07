@@ -1,0 +1,36 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMGenerator"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="DMGenerator.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF242425">
+        <TextBox x:Name="modelNameReplaceTextBox" HorizontalAlignment="Left" Margin="162,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ModelName"/>
+        <Label Content="Replace Model Name" HorizontalAlignment="Left" Margin="156,74,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="replaceButton_Copy" Content="Replace" HorizontalAlignment="Left" Margin="675,100,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="83" Height="291"/>
+        <TextBox x:Name="connectionStringReplaceTextBox" HorizontalAlignment="Left" Margin="162,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ConnectionString"/>
+        <Label Content="Replace Connection String" HorizontalAlignment="Left" Margin="157,126,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="propertyNameTextBox" HorizontalAlignment="Left" Margin="162,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <Label Content="Property Name" HorizontalAlignment="Left" Margin="157,178,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Type" HorizontalAlignment="Left" Margin="156,228,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <ListView x:Name="propertiesAddedCheckBox" HorizontalAlignment="Left" Height="190" Margin="317,201,0,0" VerticalAlignment="Top" Width="341" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Properties added&#xD;&#xA;" HorizontalAlignment="Left" Margin="311,178,0,0" VerticalAlignment="Top" Width="125" Height="23" Foreground="White"/>
+        <Button x:Name="addPropertyButton" Content="Add Property" HorizontalAlignment="Left" Height="24" Margin="162,367,0,0" VerticalAlignment="Top" Width="128" Click="addPropertyButton_Click"/>
+        <ComboBox x:Name="propertyTypeComboBox" HorizontalAlignment="Right" Height="24" Margin="0,253,510,0" VerticalAlignment="Top" Width="129">
+            <ComboBoxItem Content="Int"></ComboBoxItem>
+            <ComboBoxItem Content="String"></ComboBoxItem>
+            <ComboBoxItem Content="Boolean"></ComboBoxItem>
+        </ComboBox>
+        <CheckBox x:Name="propertyRequiredCheckBox" Content="Required" HorizontalAlignment="Left" Margin="160,298,0,0" VerticalAlignment="Top" Foreground="White" IsChecked="True"/>
+
+    </Grid>
+</Window>

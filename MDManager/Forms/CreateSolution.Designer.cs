@@ -30,7 +30,6 @@ namespace MDManager.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateSolution));
-            this.runWebAPICheckBox = new System.Windows.Forms.CheckBox();
             this.crudCheckBox = new System.Windows.Forms.CheckBox();
             this.checkBoxPrime = new System.Windows.Forms.CheckBox();
             this.entityFrameworkCheckBox = new System.Windows.Forms.CheckBox();
@@ -46,7 +45,6 @@ namespace MDManager.Forms
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.checkBoxServe = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.solutionNameTextBox = new MetroFramework.Controls.MetroTextBox();
             this.propertyNameTextBox = new MetroFramework.Controls.MetroTextBox();
@@ -61,20 +59,10 @@ namespace MDManager.Forms
             this.dockerComposeCheckBox = new System.Windows.Forms.CheckBox();
             this.runInDockerComposeButton = new System.Windows.Forms.Button();
             this.downDockerComposeButton = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // runWebAPICheckBox
-            // 
-            this.runWebAPICheckBox.AutoSize = true;
-            this.runWebAPICheckBox.BackColor = System.Drawing.Color.Transparent;
-            this.runWebAPICheckBox.ForeColor = System.Drawing.Color.Transparent;
-            this.runWebAPICheckBox.Location = new System.Drawing.Point(24, 158);
-            this.runWebAPICheckBox.Name = "runWebAPICheckBox";
-            this.runWebAPICheckBox.Size = new System.Drawing.Size(92, 17);
-            this.runWebAPICheckBox.TabIndex = 14;
-            this.runWebAPICheckBox.Text = "Run Web API";
-            this.runWebAPICheckBox.UseVisualStyleBackColor = false;
             // 
             // crudCheckBox
             // 
@@ -95,9 +83,9 @@ namespace MDManager.Forms
             this.checkBoxPrime.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxPrime.Location = new System.Drawing.Point(212, 106);
             this.checkBoxPrime.Name = "checkBoxPrime";
-            this.checkBoxPrime.Size = new System.Drawing.Size(90, 17);
+            this.checkBoxPrime.Size = new System.Drawing.Size(68, 17);
             this.checkBoxPrime.TabIndex = 16;
-            this.checkBoxPrime.Text = "Add PrimeNG";
+            this.checkBoxPrime.Text = "PrimeNG";
             this.checkBoxPrime.UseVisualStyleBackColor = false;
             // 
             // entityFrameworkCheckBox
@@ -116,8 +104,9 @@ namespace MDManager.Forms
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox5.Enabled = false;
             this.checkBox5.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox5.Location = new System.Drawing.Point(416, 80);
+            this.checkBox5.Location = new System.Drawing.Point(416, 106);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(65, 17);
             this.checkBox5.TabIndex = 18;
@@ -236,18 +225,6 @@ namespace MDManager.Forms
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // checkBoxServe
-            // 
-            this.checkBoxServe.AutoSize = true;
-            this.checkBoxServe.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxServe.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBoxServe.Location = new System.Drawing.Point(212, 132);
-            this.checkBoxServe.Name = "checkBoxServe";
-            this.checkBoxServe.Size = new System.Drawing.Size(140, 17);
-            this.checkBoxServe.TabIndex = 22;
-            this.checkBoxServe.Text = "Run Locally After Install ";
-            this.checkBoxServe.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -369,9 +346,9 @@ namespace MDManager.Forms
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(679, 35);
+            this.listBox1.Location = new System.Drawing.Point(691, 35);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(281, 251);
+            this.listBox1.Size = new System.Drawing.Size(281, 290);
             this.listBox1.TabIndex = 35;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -379,7 +356,7 @@ namespace MDManager.Forms
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(676, 16);
+            this.label6.Location = new System.Drawing.Point(688, 16);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(88, 13);
             this.label6.TabIndex = 36;
@@ -390,7 +367,7 @@ namespace MDManager.Forms
             this.dockerComposeCheckBox.AutoSize = true;
             this.dockerComposeCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.dockerComposeCheckBox.ForeColor = System.Drawing.Color.Transparent;
-            this.dockerComposeCheckBox.Location = new System.Drawing.Point(416, 106);
+            this.dockerComposeCheckBox.Location = new System.Drawing.Point(557, 308);
             this.dockerComposeCheckBox.Name = "dockerComposeCheckBox";
             this.dockerComposeCheckBox.Size = new System.Drawing.Size(108, 17);
             this.dockerComposeCheckBox.TabIndex = 37;
@@ -441,12 +418,39 @@ namespace MDManager.Forms
             this.downDockerComposeButton.UseWaitCursor = true;
             this.downDockerComposeButton.Click += new System.EventHandler(this.downDockerComposeButton_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.ForeColor = System.Drawing.Color.Transparent;
+            this.checkBox1.Location = new System.Drawing.Point(416, 80);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(93, 17);
+            this.checkBox1.TabIndex = 40;
+            this.checkBox1.Text = "In Memory DB";
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.Enabled = false;
+            this.checkBox2.ForeColor = System.Drawing.Color.Transparent;
+            this.checkBox2.Location = new System.Drawing.Point(416, 132);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(77, 17);
+            this.checkBox2.TabIndex = 41;
+            this.checkBox2.Text = "Mongo DB";
+            this.checkBox2.UseVisualStyleBackColor = false;
+            // 
             // CreateSolution
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(999, 416);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.downDockerComposeButton);
             this.Controls.Add(this.runInDockerComposeButton);
             this.Controls.Add(this.dockerComposeCheckBox);
@@ -461,9 +465,7 @@ namespace MDManager.Forms
             this.Controls.Add(this.propertyNameTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.solutionNameTextBox);
-            this.Controls.Add(this.checkBoxServe);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.runWebAPICheckBox);
             this.Controls.Add(this.crudCheckBox);
             this.Controls.Add(this.checkBoxPrime);
             this.Controls.Add(this.entityFrameworkCheckBox);
@@ -484,8 +486,6 @@ namespace MDManager.Forms
         }
 
         #endregion
-
-        private System.Windows.Forms.CheckBox runWebAPICheckBox;
         private System.Windows.Forms.CheckBox crudCheckBox;
         private System.Windows.Forms.CheckBox checkBoxPrime;
         private System.Windows.Forms.CheckBox entityFrameworkCheckBox;
@@ -501,7 +501,6 @@ namespace MDManager.Forms
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog2;
-        private System.Windows.Forms.CheckBox checkBoxServe;
         private System.Windows.Forms.Label label3;
         private MetroFramework.Controls.MetroTextBox solutionNameTextBox;
         private MetroFramework.Controls.MetroTextBox propertyNameTextBox;
@@ -516,5 +515,7 @@ namespace MDManager.Forms
         private System.Windows.Forms.CheckBox dockerComposeCheckBox;
         private System.Windows.Forms.Button runInDockerComposeButton;
         private System.Windows.Forms.Button downDockerComposeButton;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
