@@ -8,8 +8,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF242425">
-        <TextBox x:Name="modelNameReplaceTextBox" HorizontalAlignment="Left" Margin="162,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ModelName"/>
-        <Label Content="Replace Model Name" HorizontalAlignment="Left" Margin="156,74,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="modelNameReplaceTextBox" HorizontalAlignment="Left" Margin="162,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ModelName" IsEnabled="False"/>
+        <Label Content="Not in use" HorizontalAlignment="Left" Margin="156,74,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Button x:Name="replaceButton_Copy" Content="Replace" HorizontalAlignment="Left" Margin="675,100,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="83" Height="291"/>
         <TextBox x:Name="connectionStringReplaceTextBox" HorizontalAlignment="Left" Margin="162,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ConnectionString"/>
         <Label Content="Replace Connection String" HorizontalAlignment="Left" Margin="157,126,0,0" VerticalAlignment="Top" Foreground="White"/>

@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "c:\\udv\\nuget_packages": {}
+    "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
+      "projectUniqueName": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
       "projectName": "DMGenerator",
-      "projectPath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
-      "packagesPath": "c:\\udv\\nuget_packages",
-      "outputPath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\obj\\",
+      "projectPath": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
+      "packagesPath": "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\",
+      "outputPath": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michael Rinkovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

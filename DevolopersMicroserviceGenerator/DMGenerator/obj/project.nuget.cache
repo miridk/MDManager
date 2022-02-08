@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KEMfxgwkfg/y3MRgDyMSB5a4L/g5tn/UV+y2mIEb577QZzOm/5GTT9uYNNAvIIFnSvYGVmFejVUSSjCrflkcjg==",
+  "dgSpecHash": "xkKwoin4bGh733squV1pBpkNY5shZ6ZPoUDl06WTFQ6P31v5AnM9uV+KJyZeOPAQuEq20U5ixh6FU6gaM+8kVw==",
   "success": true,
-  "projectFilePath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
+  "projectFilePath": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\DMGenerator\\DMGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -30,6 +30,7 @@ namespace DMGenerator
         public List<string> types = new List<string>();
         public List<string> required = new List<string>();
         public List<string> propsConcatList = new List<string>();
+        public List<string> cPropsConcatList = new List<string>();
         public List<string> efPropsConcatList = new List<string>();
         public List<string> efDataContextPropsConcatList = new List<string>();
 
@@ -55,21 +56,21 @@ namespace DMGenerator
             string[] files = Directory.GetFiles(rootfolder, "*.*", SearchOption.AllDirectories);
             //TAG_{'modelName'}
 
-            foreach (string file in files)
-            {
-                try
-                {
-                    string contents = File.ReadAllText(file);
-                    contents = contents.Replace(@"TAG_{'modelName'}", modelNameReplaceTextBox.Text);
-                    // Make files writable
-                    File.SetAttributes(file, FileAttributes.Normal);
-                    File.WriteAllText(file, contents);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-            }
+            //foreach (string file in files)
+            //{
+            //    try
+            //    {
+            //        string contents = File.ReadAllText(file);
+            //        contents = contents.Replace(@"TAG_{'controllerPutModel'}", modelNameReplaceTextBox.Text);
+            //        // Make files writable
+            //        File.SetAttributes(file, FileAttributes.Normal);
+            //        File.WriteAllText(file, contents);
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //}
 
             //TAG_{'modelNameToLower'}
             foreach (string file in files)
@@ -93,7 +94,7 @@ namespace DMGenerator
             //Creating Properties Model
             for (int i = 0; i < props.Count; i++)
             {
-                string propsConcat = required[i] + "\n        public " + types[i] + " " + (props[i]) + " { get; set; }";
+                string propsConcat = required[i] + "\n        public " + types[i] + " " + (props[i]) + " { get; set; } = string.Empty;";
                 propsConcatList.Add(propsConcat);
             }
             var propsJoined = String.Join("\n        ", propsConcatList.ToArray());
@@ -115,8 +116,36 @@ namespace DMGenerator
                 }
             }
 
+
+            //Creating Controller Model
+            for (int i = 0; i < props.Count; i++)
+            {
+                string propsConcat = "\n        dbtemplate." + props[i] + " = request." + props[i] + ";";
+                cPropsConcatList.Add(propsConcat);
+            }
+            var cPropsJoined = String.Join("\n        ", cPropsConcatList.ToArray());
+
+            //TAG_{'propertiesModel'}
+            foreach (string file in files)
+            {
+                try
+                {
+                    string contents = File.ReadAllText(file);
+                    contents = contents.Replace(@"TAG_{'controllerPutModel'}", cPropsJoined);
+                    // Make files writable
+                    File.SetAttributes(file, FileAttributes.Normal);
+                    File.WriteAllText(file, contents);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+
+
+
             //Creating Ef Properties Model
-            
+
             for (int i = 0; i < props.Count; i++)
             {
                 if (types[i] == "string")
