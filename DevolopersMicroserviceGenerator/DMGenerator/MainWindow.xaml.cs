@@ -261,13 +261,21 @@ namespace DMGenerator
 
         }
 
-        private void installTemplateFromNugetButton_Click(object sender, RoutedEventArgs e)
+        private async void installTemplateFromNugetButton_Click(object sender, RoutedEventArgs e)
         {
-            string packageName = "";
-            PowerShell ps = PowerShell.Create();
-            ps.AddScript(File.ReadAllText(@"..\..\Scripts\InstallTemplate.ps1"))
-                    .AddParameter(null, packageName)
-            .Invoke();
+            using (PowerShell ps = PowerShell.Create())
+            {
+                //string packageName = "";
+                //PowerShell ps = PowerShell.Create();
+                ps.AddScript(@"..\..\Scripts\InstallTemplate.ps1");
+                //.AddParameter(null, packageName)
+                var message = await ps.InvokeAsync().ConfigureAwait(false);
+                //.Invoke();
+                //string message = "Installed";
+                MessageBox.Show(message.ToString());
+            }
+            
+
         }
     }
 }
