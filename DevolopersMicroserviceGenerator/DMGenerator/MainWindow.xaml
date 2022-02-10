@@ -31,6 +31,7 @@
             <ComboBoxItem Content="Boolean"></ComboBoxItem>
         </ComboBox>
         <CheckBox x:Name="propertyRequiredCheckBox" Content="Required" HorizontalAlignment="Left" Margin="160,298,0,0" VerticalAlignment="Top" Foreground="White" IsChecked="True"/>
+        <Button x:Name="installTemplateFromNugetButton" Content="Install Template From Nuget" HorizontalAlignment="Left" Margin="162,32,0,0" VerticalAlignment="Top" Width="164" Click="installTemplateFromNugetButton_Click"/>
 
     </Grid>
 </Window>

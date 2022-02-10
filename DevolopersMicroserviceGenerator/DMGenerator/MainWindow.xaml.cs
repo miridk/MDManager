@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Management.Automation;
 
 namespace DMGenerator
 {
@@ -258,6 +259,15 @@ namespace DMGenerator
                 propertiesAddedCheckBox.Items.Add("public " + types[i] + " " + props[i] + " { get; set; } " + required[i]);
             }
 
+        }
+
+        private void installTemplateFromNugetButton_Click(object sender, RoutedEventArgs e)
+        {
+            string packageName = "";
+            PowerShell ps = PowerShell.Create();
+            ps.AddScript(File.ReadAllText(@"..\..\Scripts\InstallTemplate.ps1"))
+                    .AddParameter(null, packageName)
+            .Invoke();
         }
     }
 }

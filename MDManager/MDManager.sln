@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDManager", "MDManager.csproj", "{0135B960-80F8-4A44-8470-C318CDDF2057}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MDManagerSetup", "..\MDManagerSetup\MDManagerSetup.vdproj", "{36E7BE64-5458-4C19-BC33-DD389DA5CB37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0135B960-80F8-4A44-8470-C318CDDF2057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0135B960-80F8-4A44-8470-C318CDDF2057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0135B960-80F8-4A44-8470-C318CDDF2057}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{0135B960-80F8-4A44-8470-C318CDDF2057}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{0135B960-80F8-4A44-8470-C318CDDF2057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0135B960-80F8-4A44-8470-C318CDDF2057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E7BE64-5458-4C19-BC33-DD389DA5CB37}.Debug|Any CPU.ActiveCfg = Debug
+		{36E7BE64-5458-4C19-BC33-DD389DA5CB37}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
