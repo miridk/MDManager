@@ -23,7 +23,7 @@ namespace DMGenerator
     {
         public string textToReplace;
         public string text;
-        string rootfolder = @"C:\Temp";
+        string rootfolder = @"C:\Temp\Replace";
 
         public MainWindow()
         {
@@ -39,7 +39,7 @@ namespace DMGenerator
         {
             textToReplace = textToReplaceTextBox.Text;
             text = tagNameTextBox.Text;
-            rootfolder = @"C:\Temp";
+            rootfolder = @"C:\Temp\Replace";
             string[] files = Directory.GetFiles(rootfolder, "*.*", SearchOption.AllDirectories);
             foreach (string file in files)
             {

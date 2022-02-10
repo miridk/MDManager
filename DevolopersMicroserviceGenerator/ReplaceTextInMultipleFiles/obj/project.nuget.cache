@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wc9YU053mUg7qFjJ3ygFellVZGhkDLfnvGHz5RYTCaNCNXMDHT2wmCBeJYWtYFnS2J7Q5USUzcHtU1FvqkJURQ==",
+  "dgSpecHash": "ilypOjvG2sjYRMY1EUsupoPZt4St7YMizi56AQwtj0EYqgZ+5eiUXuhypo1FGpbTBcMEZmk9HNWgZdge2YihVA==",
   "success": true,
-  "projectFilePath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
+  "projectFilePath": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

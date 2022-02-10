@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DMGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="replaceButton" Content="Replace" HorizontalAlignment="Left" Margin="336,94,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="64"/>
-        <TextBox x:Name="tagNameTextBox" HorizontalAlignment="Left" Margin="201,94,0,0" TextWrapping="Wrap" Text="Tag Name" VerticalAlignment="Top" Width="120"/>
-        <Label Content="-&gt;" HorizontalAlignment="Left" Margin="178,90,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textToReplaceTextBox" HorizontalAlignment="Left" Margin="58,94,0,0" TextWrapping="Wrap" Text="Text to replace" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Find" HorizontalAlignment="Left" Margin="53,71,0,0" VerticalAlignment="Top"/>
-        <Label Content="Replace" HorizontalAlignment="Left" Margin="196,71,0,0" VerticalAlignment="Top"/>
+        Title="MainWindow" Height="160" Width="502">
+    <Grid Background="#FF64646B" Margin="0,0,0,0">
+        <Button x:Name="replaceButton" Content="Replace" HorizontalAlignment="Left" Margin="415,76,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="64"/>
+        <TextBox x:Name="tagNameTextBox" HorizontalAlignment="Left" Margin="223,77,0,0" TextWrapping="Wrap" Text="Tag Name" VerticalAlignment="Top" Width="173"/>
+        <Label Content="-&gt;" HorizontalAlignment="Left" Margin="198,74,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="textToReplaceTextBox" HorizontalAlignment="Left" Margin="17,78,0,0" TextWrapping="Wrap" Text="Text to replace" VerticalAlignment="Top" Width="176"/>
+        <Label Content="Find" HorizontalAlignment="Left" Margin="12,55,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="White"/>
+        <Label Content="Replace" HorizontalAlignment="Left" Margin="218,54,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="All text in all files in C:\Temp\Replace will be effected" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
 
     </Grid>
 </Window>

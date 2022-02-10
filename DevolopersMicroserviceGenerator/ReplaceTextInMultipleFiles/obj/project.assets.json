@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
+      "projectUniqueName": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
       "projectName": "DMGenerator",
-      "projectPath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
+      "projectPath": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\DMGenerator.csproj",
       "packagesPath": "c:\\udv\\nuget_packages",
-      "outputPath": "\\\\tsclient\\C\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\obj\\",
+      "outputPath": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\ReplaceTextInMultipleFiles\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mri\\AppData\\Roaming\\NuGet\\NuGet.Config",
