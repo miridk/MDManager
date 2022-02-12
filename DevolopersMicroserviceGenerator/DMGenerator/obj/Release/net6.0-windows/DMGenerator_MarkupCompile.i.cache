@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Udv\MDManager\DevolopersMicroserviceGenerator\DMGenerator\obj\Release\net6.0-windows\
+C:\udv\MDManager\DevolopersMicroserviceGenerator\DMGenerator\obj\Release\net6.0-windows\
 DMGenerator
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Udv\MDManager\DevolopersMicroserviceGenerator\DMGenerator\App.xaml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\DMGenerator\App.xaml
 11407045341
 
 5205931549
 2281880364037
 MainWindow.xaml;
 
-True
+False
 

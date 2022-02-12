@@ -1,0 +1,54 @@
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\Design 2.exe
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\Design 2.deps.json
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\Design 2.runtimeconfig.json
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\Design 2.dll
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\ref\Design 2.dll
+C:\udv\WPF-Designs\WPF Designs\Design 2\bin\Debug\net6.0-windows\Design 2.pdb
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.csproj.AssemblyReference.cache
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\App.g.cs
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2_MarkupCompile.cache
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2_MarkupCompile.lref
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\App.baml
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.g.resources
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.AssemblyInfoInputs.cache
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.AssemblyInfo.cs
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.csproj.CoreCompileInputs.cache
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.dll
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\ref\Design 2.dll
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.pdb
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Design 2.genruntimeconfig.cache
+C:\udv\WPF-Designs\WPF Designs\Design 2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\Design 2.exe
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\Design 2.deps.json
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\Design 2.runtimeconfig.json
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\Design 2.dll
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\ref\Design 2.dll
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\bin\Debug\net6.0-windows\Design 2.pdb
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\MicroserviceView.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\App.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2_MarkupCompile.cache
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2_MarkupCompile.lref
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\App.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\MicroserviceView.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.g.resources
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.AssemblyInfoInputs.cache
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.AssemblyInfo.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.csproj.CoreCompileInputs.cache
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.dll
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\ref\Design 2.dll
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.pdb
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.genruntimeconfig.cache
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\AddNewServiceStartView.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\AddNewServiceStartView.baml
