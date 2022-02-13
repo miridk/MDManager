@@ -52,3 +52,4 @@ C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windo
 C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.genruntimeconfig.cache
 C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\AddNewServiceStartView.g.cs
 C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\MVVM\View\AddNewServiceStartView.baml
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 2\obj\Debug\net6.0-windows\Design 2.csproj.AssemblyReference.cache

@@ -38,11 +38,11 @@
                              Command="{Binding AddNewServiceStartViewCommand}"/>
                         <TextBlock Text="Add New Service"
                                    Foreground="White"
-                                   FontSize="28"
+                                   FontSize="24"
                                    Margin="20,10,10,0"/>
                         <TextBlock Text="Containername: MSSQL_Server"
                                    Foreground="White"
-                                   FontSize="18"
+                                   FontSize="14"
                                    Margin="20,10,10,0"/>
                     </StackPanel>
                 </Grid>
@@ -68,11 +68,11 @@
                     <StackPanel>
                         <TextBlock Text="Microservices&#x0a;Overview"
                                    Foreground="White"
-                                   FontSize="28"
+                                   FontSize="24"
                                    Margin="20,10,10,0"/>
                         <TextBlock Text="Docker containers&#x0a;running"
                                    Foreground="White"
-                                   FontSize="18"
+                                   FontSize="14"
                                    Margin="20,10,10,0"/>
                     </StackPanel>
                     <Image Source="/MVVM/View/toppng.com-docker-logo-584x512.png" Margin="135,129,13,13"/>
