@@ -1,11 +1,13 @@
 
 TAG_{'modelName'}
 	TAG_{'modelNameToLower'}
+	TAG_{'controllerPutModel'} dbtemplate
 
 TAG_{'properties'}
-	TAG_{'propertiesModel'} //Id should be included from the getgo
+	TAG_{'propertiesModel'} //Id should be included from the getgo ::::public string Name { get; set; } = string.Empty;
 	TAG_{'propertiesEfDesigner'} //Id should be included from the getgo
 	TAG_{'propertiesEf'} //Id should be included from the getgo
+	TAG_{'controllerPutModel'} dbtemplate
 TAG_{'ConnectionString'}
 
 

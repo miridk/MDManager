@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:DMGenerator"
         xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="DMGenerator.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF242425">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <TextBox x:Name="modelNameReplaceTextBox" HorizontalAlignment="Left" Margin="162,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" Text="ModelName" IsEnabled="False"/>
         <Label Content="Not in use" HorizontalAlignment="Left" Margin="156,74,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Button x:Name="replaceButton_Copy" Content="Replace" HorizontalAlignment="Left" Margin="675,100,0,0" VerticalAlignment="Top" Click="replaceButton_Click" Width="83" Height="291"/>
