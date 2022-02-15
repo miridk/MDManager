@@ -13,7 +13,12 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\Michael Rinkovski\\.dotnet\\store\\|arch|\\|tfm|",
+<<<<<<< HEAD
       "C:\\Users\\Michael Rinkovski\\.nuget\\packages"
+=======
+      "C:\\Users\\Michael Rinkovski\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> 6b97d8b6a08d8cf5186b75e22d68cd756f1ada55
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Design_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MVVM\View\round_add_circle_outline_white_24dp.png" />
+    <None Remove="MVVM\View\round_play_circle_outline_white_24dp.png" />
+    <None Remove="MVVM\View\round_stop_black_24dp.png" />
+    <None Remove="MVVM\View\round_stop_circle_white_24dp.png" />
+    <None Remove="MVVM\View\toppng.com-docker-logo-584x512.png" />
+    <None Remove="round_close_white_24dp.png" />
+    <None Remove="round_panorama_fish_eye_white_24dp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Fonts\" />
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MVVM\View\round_add_circle_outline_white_24dp.png" />
+    <Resource Include="MVVM\View\round_play_circle_outline_white_24dp.png" />
+    <Resource Include="MVVM\View\round_stop_black_24dp.png" />
+    <Resource Include="MVVM\View\round_stop_circle_white_24dp.png" />
+    <Resource Include="MVVM\View\toppng.com-docker-logo-584x512.png" />
+    <Resource Include="round_close_white_24dp.png" />
+    <Resource Include="round_panorama_fish_eye_white_24dp.png" />
+  </ItemGroup>
+
+</Project>
