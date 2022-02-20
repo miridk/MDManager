@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ypXIAYDCZHay6CI7Pt4JarMQIc6psRpzW1XHONd2a0EIsy0WH2CKoUp0TjreClMk/Z1Ub5HPzlIhdHphUAoBjg==",
+  "dgSpecHash": "cLB5qxS89uKJCC6/9b9WE4uNqLR/kN1VFlWn/LHiQl/4vIi3CGVgm+Avf+KXNzc7AUfjOISR/blPHqD+dVZBqA==",
   "success": true,
-  "projectFilePath": "C:\\Udv\\WPF-Designs\\WPF Designs\\Design 4\\Design 4.csproj",
+  "projectFilePath": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\cake.powershell\\1.0.1\\cake.powershell.1.0.1.nupkg.sha512",
     "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\markdig.signed\\0.22.0\\markdig.signed.0.22.0.nupkg.sha512",
