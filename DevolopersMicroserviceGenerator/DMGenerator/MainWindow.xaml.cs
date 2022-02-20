@@ -24,7 +24,7 @@ namespace DMGenerator
     {
         public string textToReplace;
         public string text;
-        string rootfolder = @"C:\Temp\Template";
+        public string rootfolder = @"C:\Temp\Template";
         public string efType;
 
         public List<string> props = new List<string>();
@@ -275,6 +275,11 @@ namespace DMGenerator
                 MessageBox.Show(message.ToString());
             }
             
+
+        }
+
+        private void propertyNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
         }
     }
