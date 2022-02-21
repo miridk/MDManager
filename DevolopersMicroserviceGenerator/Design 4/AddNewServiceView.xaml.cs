@@ -27,47 +27,27 @@ namespace Design_4
         {
 
             //***********Trying to get info from JSON file*********
-            string currUsername = Environment.UserName;
-            string[] dirs = Directory.GetFiles(@$"C:\Users\{currUsername}\.templateengine\", "templatecache.json", SearchOption.AllDirectories);
-            dir = dirs[0];
-            string json = File.ReadAllText($"{dir}");
+            //string currUsername = Environment.UserName;
+            //string[] dirs = Directory.GetFiles(@$"C:\Users\{currUsername}\.templateengine\", "templatecache.json", SearchOption.AllDirectories);
+            //dir = dirs[0];
+            //string json = File.ReadAllText($"{dir}");
             //var message = JsonConvert.DeserializeObject<List<string>>(json);
-
             //foreach (var item in message)
             //{
             //    res.Add(item);
             //}
-
             //Console.WriteLine(message);
-
-
             //res.Add((string)obj.TemplateInfo.Parameters.Name);
             //*****************************************************
 
             InitializeComponent();
+            FeedbackFromPowerShellRun(script);
 
-            //Functionality.SeedingListOfTemplates();
-            //FeedbackFromPowerShellRun(script);
-            
-            
-            //res.Remove("Short Name");
-            //res.Remove("Template Name");
-            //res.Remove("These templates matched your input:");
-            //res.Remove("  Language");
-            //res.Remove(" Tags");
-            //res.Remove("[C#]");
-            //res.Remove("[F#]");
-
+            listBoxOfTemplates.Items.Clear();
             foreach (string r in res)
             {
                 listBoxOfTemplates.Items.Add(r);
             }
-
-
-            //foreach (string template in Functionality.templates)
-            //{
-            //    listBoxOfTemplates.Items.Add(template);
-            //}
 
             listBoxOfTemplates.SelectedIndex = 0;
         }
@@ -84,36 +64,28 @@ namespace Design_4
             }
         }
 
-        //private static void FeedbackFromPowerShellRun(string script)
-        //{
+        private static void FeedbackFromPowerShellRun(string script)
+        {
 
-        //    using (var powershell = PowerShell.Create())
-        //    {
-        //        string r;
-        //        string[] listOfr;
-        //        powershell.AddScript(script);
-        //        Collection<PSObject> results = powershell.Invoke();
+            using (var powershell = PowerShell.Create())
+            {
+                string r;
+                string[] listOfr;
+                powershell.AddScript(script);
+                Collection<PSObject> results = powershell.Invoke();
 
-        //        foreach (PSObject result in results)
-        //        {
-        //            r = result.ToString().Replace("   ",",");
-        //            r = r.Trim();
-        //            listOfr = r.ToString().Split(',');
-                    
-        //            foreach (string s in listOfr)
-        //            {
+                for (int i = 0; i < results.Count; i++)
+                {
+                    r = results[i].ToString().Replace("   ", ",");
+                    listOfr = r.Split(',');
+                    res.Add(listOfr[0]);
+                }
+            }
+        }
 
-                            
-        //                if (s != "")
-                            
-        //                    res.Add(s);
-        //            }
-        //            //r = result.ToString().Trim();
-        //            //if (r.Contains(""))
+        private void addNewTemplate_Clicked(object sender, MouseButtonEventArgs e)
+        {
 
-                    
-        //        }
-        //    }
-        //}
+        }
     }
 }

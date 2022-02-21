@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\
 Design_4
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\App.xaml
 7721613020
 
 10-533405898
-233-1837122227
+1941142463650
 AddDbString.xaml;AddNewServiceView.xaml;AddPropertiesView.xaml;HomeView.xaml;MainWindow.xaml;MicroservicesView.xaml;NameProject.xaml;
 
-False
+True
 

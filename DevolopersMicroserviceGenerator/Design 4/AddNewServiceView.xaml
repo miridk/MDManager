@@ -39,7 +39,7 @@
                                    HorizontalAlignment="Left"
                                    Margin="10,10,10,0" Width="340"/>
                     </StackPanel>
-                    <StackPanel>
+                    <StackPanel MouseDown="addNewTemplate_Clicked">
                         <Border Width="35"
                                 Height="35"
                                 CornerRadius="5"
