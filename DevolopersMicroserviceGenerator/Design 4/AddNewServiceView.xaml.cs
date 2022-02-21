@@ -85,7 +85,7 @@ namespace Design_4
 
         private void addNewTemplate_Clicked(object sender, MouseButtonEventArgs e)
         {
-
+         
         }
     }
 }

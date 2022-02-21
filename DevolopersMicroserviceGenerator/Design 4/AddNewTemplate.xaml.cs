@@ -1,8 +1,10 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
+using System.Management.Automation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -31,13 +33,39 @@ namespace Design_4
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Multiselect = true;
-            openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog.Filter = "Nuget files (*.nupkg)|*.nupkg|All files (*.*)|*.*";
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             if (openFileDialog.ShowDialog() == true)
+                templatePathTextBox.Text = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)+openFileDialog.FileName;
+
+        }
+
+        private void nextBtnAddNewTemplate(object sender, MouseButtonEventArgs e)
+        {
+;
+        }
+
+        private void RunScript(string script)
+        {
+            
+            using (var powershell = PowerShell.Create())
             {
-                foreach (string filename in openFileDialog.FileNames)
-                    lbFiles.Items.Add(Path.GetFileName(filename));
+                powershell.AddScript(script);
+                Collection<PSObject> results = powershell.Invoke();
+
+                foreach (PSObject result in results)
+                {
+                    powerShellOutputListBox.Items.Add(result.ToString());
+                }
             }
+        }
+
+        private void installTemplateBtn(object sender, RoutedEventArgs e)
+        {
+            string templatePath = templatePathTextBox.Text;
+            templatePath = templatePath.Replace(" ", "-");
+            string script = @$"dotnet new --install {templatePath}";
+            RunScript(script);
         }
     }
 }

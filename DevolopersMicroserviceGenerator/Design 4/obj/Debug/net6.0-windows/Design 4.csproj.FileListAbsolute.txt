@@ -818,3 +818,5 @@ C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windo
 C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\ref\Design 4.dll
 C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\Design 4.pdb
 C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\Design 4.genruntimeconfig.cache
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\AddNewTemplate.g.cs
+C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\AddNewTemplate.baml

@@ -13,6 +13,9 @@
     <Compile Update="AddNewServiceView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddNewTemplate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddPropertiesView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AddNewServiceView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddNewTemplate.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AddPropertiesView.xaml">
