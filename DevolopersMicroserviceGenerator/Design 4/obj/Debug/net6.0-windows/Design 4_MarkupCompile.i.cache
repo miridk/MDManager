@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\udv\MDManager\DevolopersMicroserviceGenerator\Design 4\App.xaml
-7721613020
+8-968038380
 
-122001123600
+131129875949
 233-1837122227
-AddDbString.xaml;AddNewServiceView.xaml;AddPropertiesView.xaml;HomeView.xaml;MainWindow.xaml;MicroservicesView.xaml;NameProject.xaml;
+AddDbString.xaml;AddNewServiceView.xaml;AddNewTemplate.xaml;AddPropertiesView.xaml;HomeView.xaml;MainWindow.xaml;MicroservicesView.xaml;NameProject.xaml;
 
-True
+False
 
