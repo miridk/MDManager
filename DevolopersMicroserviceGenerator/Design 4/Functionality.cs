@@ -25,16 +25,6 @@ namespace Design_4
         public static List<string> efPropsConcatList = new List<string>();
         public static List<string> efDataContextPropsConcatList = new List<string>();
 
-        //Seeding List Of Templates
-        public static void SeedingListOfTemplates()
-        {
-            templates.Add("webapidotnet6");
-            templates.Add("Webapi dotnet 6 With DTO");
-            templates.Add("Webapi dotnet 5 Minimal");
-            templates.Add("Webapi dotnet 5 With Mappers");
-        }
-
-
         public static void ReplaceTags()
         {
             
@@ -69,7 +59,7 @@ namespace Design_4
             //Creating Controller Model
             for (int i = 0; i < props.Count; i++)
             {
-                string propsConcat = "\n        dbtemplate." + props[i] + " = request." + props[i] + ";";
+                string propsConcat = "\n        db" + NameProject.projectName.ToLower() + "." + props[i] + " = request." + props[i] + ";";
                 cPropsConcatList.Add(propsConcat);
             }
             var cPropsJoined = String.Join("\n        ", cPropsConcatList.ToArray());
@@ -104,7 +94,7 @@ namespace Design_4
                 if (types[i] == "boolean")
                     efType = "bool";
 
-                string propsConcat = "\n                    Name = table.Column<" + types[i] + ">(type: \"" + efType + "\", nullable: false),";
+                string propsConcat = "\n                    " + props[i] + " = table.Column<" + types[i] + ">(type: \"" + efType + "\", nullable: false),";
                 efPropsConcatList.Add(propsConcat);
             }
             var efPropsJoined = String.Join("\n                    ", efPropsConcatList.ToArray());

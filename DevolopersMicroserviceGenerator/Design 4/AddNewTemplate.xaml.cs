@@ -36,7 +36,8 @@ namespace Design_4
             openFileDialog.Filter = "Nuget files (*.nupkg)|*.nupkg|All files (*.*)|*.*";
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             if (openFileDialog.ShowDialog() == true)
-                templatePathTextBox.Text = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)+openFileDialog.FileName;
+                templatePathTextBox.Text = openFileDialog.FileName;
+            //templatePathTextBox.Text = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)+openFileDialog.FileName;
 
         }
 
@@ -63,7 +64,7 @@ namespace Design_4
         private void installTemplateBtn(object sender, RoutedEventArgs e)
         {
             string templatePath = templatePathTextBox.Text;
-            templatePath = templatePath.Replace(" ", "-");
+            templatePath = templatePath.Replace(" ", "` ");
             string script = @$"dotnet new --install {templatePath}";
             RunScript(script);
         }

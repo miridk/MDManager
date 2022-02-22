@@ -24,16 +24,17 @@ namespace Design_4
     /// </summary>
     public partial class NameProject : Page
     {
+        public static string projectName;
         public NameProject()
         {
             InitializeComponent();
         }
 
-        private void nextBtnNameProject(object sender, MouseButtonEventArgs e)
+        public void nextBtnNameProject(object sender, MouseButtonEventArgs e)
         {
            
             string templ = Functionality.templateOfChoice;
-            string projectName = propertyNameTextBox.Text;
+            projectName = propertyNameTextBox.Text;
             projectName = projectName.Replace(" ", "-");
             string script = @"dotnet new --install c:\temp\webapi.template.dotnet6.01.1.0.1.nupkg";
             RunScript(script);

@@ -1,15 +1,7 @@
-﻿
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
 using System.Management.Automation;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
@@ -20,36 +12,19 @@ namespace Design_4
     /// </summary>
     public partial class AddNewServiceView : Page
     {
-        static List<string> res = new List<string>();
+        private static List<string> res = new List<string>();
         string script = "dotnet new -l";
-        string cleanup;
-        string dir;
+
         public AddNewServiceView()
         {
-
-            //***********Trying to get info from JSON file*********
-            //string currUsername = Environment.UserName;
-            //string[] dirs = Directory.GetFiles(@$"C:\Users\{currUsername}\.templateengine\", "templatecache.json", SearchOption.AllDirectories);
-            //dir = dirs[0];
-            //string json = File.ReadAllText($"{dir}");
-            //var message = JsonConvert.DeserializeObject<List<string>>(json);
-            //foreach (var item in message)
-            //{
-            //    res.Add(item);
-            //}
-            //Console.WriteLine(message);
-            //res.Add((string)obj.TemplateInfo.Parameters.Name);
-            //*****************************************************
-
             InitializeComponent();
             FeedbackFromPowerShellRun(script);
 
             listBoxOfTemplates.Items.Clear();
-            foreach (string r in res)
+            for (int b = 0 ; b < res.Count; b++)
             {
-                listBoxOfTemplates.Items.Add(r);
+                listBoxOfTemplates.Items.Add(res[b].ToString());
             }
-
             listBoxOfTemplates.SelectedIndex = 0;
         }
 
@@ -67,27 +42,21 @@ namespace Design_4
 
         private static void FeedbackFromPowerShellRun(string script)
         {
+            using var ps = PowerShell.Create();
+            string r;
+            string[] listOfr;
+            ps.AddScript(script);
+            Collection<PSObject> results = ps.Invoke();
 
-            using (var powershell = PowerShell.Create())
+            for (int i = 0; i < results.Count; i++)
             {
-                string r;
-                string[] listOfr;
-                powershell.AddScript(script);
-                Collection<PSObject> results = powershell.Invoke();
+                r = Regex.Replace(results[i].ToString(), @"\s\s+", ",");
 
-                for (int i = 0; i < results.Count; i++)
+                listOfr = r.Split(',');
+
+                if (listOfr.Length > 1)
                 {
-                    //r = Regex.Replace(results[i].ToString(), @"/\s\s +/ g", " ");
-                    r = Regex.Replace(results[i].ToString(), @"\s\s+", ",");
-                    //r = results[i].ToString().Replace("   ", String.Empty);
-                    //r = r.Replace("  ", ",");
-
-                    listOfr = r.Split(',');
-                    if (listOfr.Length > 0)
-                    {
                     res.Add(listOfr[1]);
-                    }
-                    //res.Add(r);
                 }
             }
         }
