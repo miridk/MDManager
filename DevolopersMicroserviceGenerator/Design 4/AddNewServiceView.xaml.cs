@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Management.Automation;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -76,9 +77,17 @@ namespace Design_4
 
                 for (int i = 0; i < results.Count; i++)
                 {
-                    r = results[i].ToString().Replace("   ", ",");
+                    //r = Regex.Replace(results[i].ToString(), @"/\s\s +/ g", " ");
+                    r = Regex.Replace(results[i].ToString(), @"\s\s+", ",");
+                    //r = results[i].ToString().Replace("   ", String.Empty);
+                    //r = r.Replace("  ", ",");
+
                     listOfr = r.Split(',');
-                    res.Add(listOfr[0]);
+                    if (listOfr.Length > 0)
+                    {
+                    res.Add(listOfr[1]);
+                    }
+                    //res.Add(r);
                 }
             }
         }

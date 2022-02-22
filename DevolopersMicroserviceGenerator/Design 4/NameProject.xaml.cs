@@ -35,9 +35,9 @@ namespace Design_4
             string templ = Functionality.templateOfChoice;
             string projectName = propertyNameTextBox.Text;
             projectName = projectName.Replace(" ", "-");
-            string script = @"dotnet new --install c:\temp\webapi.template.dotnet6.01.1.0.1.nupkg"; //Works
+            string script = @"dotnet new --install c:\temp\webapi.template.dotnet6.01.1.0.1.nupkg";
             RunScript(script);
-            script = @$"dotnet new {templ} -o c:\temp\Template\{projectName}"; //Works
+            script = @$"dotnet new {templ} -o c:\temp\Template\{projectName}"; 
             RunScript(script);
         }
 
