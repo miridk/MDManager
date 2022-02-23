@@ -23,6 +23,7 @@ namespace Design_4
         public AddDbString()
         {
             InitializeComponent();
+            connectionStringTextBox.Text = "Data Source=USD1928;Initial Catalog=TisIsATest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         }
 
 

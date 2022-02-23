@@ -24,7 +24,8 @@
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
                         VerticalAlignment="Top" 
-                        Width="200"
+                        Width="600"
+                        Height="100"
                         Margin="10,0,0,20"/>
         </StackPanel>
         <Border CornerRadius="5"
