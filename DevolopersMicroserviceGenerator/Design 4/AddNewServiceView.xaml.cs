@@ -18,8 +18,11 @@ namespace Design_4
         public AddNewServiceView()
         {
             InitializeComponent();
-            FeedbackFromPowerShellRun(script);
 
+            res.Clear();
+            FeedbackFromPowerShellRun(script);
+            res.RemoveAt(0);
+            res.RemoveAt(0);
             listBoxOfTemplates.Items.Clear();
             for (int b = 0 ; b < res.Count; b++)
             {

@@ -37,7 +37,7 @@
                           Width="200">
                     <ComboBoxItem Content="Int"></ComboBoxItem>
                     <ComboBoxItem Content="String"></ComboBoxItem>
-                    <ComboBoxItem Content="Boolean"></ComboBoxItem>
+                    <ComboBoxItem Content="Bool"></ComboBoxItem>
                 </ComboBox>
                 <CheckBox x:Name="propertyRequiredCheckBox" 
                           Content="Required" 

@@ -9,12 +9,12 @@ namespace Design_4
 {
     public class Functionality
     {
-        public static string textToReplace;
-        public static string text;
+        public static string textToReplace = "";
+        public static string text = "";
         public static string rootfolder = @"C:\Temp\Template";
-        public static string efType;
-        public static string templateOfChoice;
-        public static string connectionStringReplace;
+        public static string efType = "";
+        public static string templateOfChoice = "";
+        public static string connectionStringReplace = "";
 
         public static List<string> templates = new List<string>();
         public static List<string> props = new List<string>();
@@ -33,7 +33,7 @@ namespace Design_4
             //Creating Properties Model
             for (int i = 0; i < props.Count; i++)
             {
-                string propsConcat = required[i] + "\n        public " + types[i] + " " + (props[i]) + " { get; set; } = string.Empty;";
+                string propsConcat = required[i] + "\n        public " + types[i] + " " + (props[i]) + " { get; set; }";
                 propsConcatList.Add(propsConcat);
             }
             var propsJoined = String.Join("\n        ", propsConcatList.ToArray());
@@ -91,8 +91,8 @@ namespace Design_4
                     efType = "nvarchar(max)";
                 if (types[i] == "int")
                     efType = "int";
-                if (types[i] == "boolean")
-                    efType = "bool";
+                if (types[i] == "bool")
+                    efType = "bit";
 
                 string propsConcat = "\n                    " + props[i] + " = table.Column<" + types[i] + ">(type: \"" + efType + "\", nullable: false),";
                 efPropsConcatList.Add(propsConcat);
@@ -127,8 +127,8 @@ namespace Design_4
                     efType = "nvarchar(max)";
                 if (types[i] == "int")
                     efType = "int";
-                if (types[i] == "boolean")
-                    efType = "bool";
+                if (types[i] == "bool")
+                    efType = "bit";
 
                 string propsConcat = "\n                    b.Property<" + types[i] + ">(\"" + props[i] + "\")\n                        .IsRequired()\n                        .HasColumnType(\"" + efType + "\");";
                 efDataContextPropsConcatList.Add(propsConcat);

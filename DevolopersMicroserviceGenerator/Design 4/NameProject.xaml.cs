@@ -24,7 +24,7 @@ namespace Design_4
     /// </summary>
     public partial class NameProject : Page
     {
-        public static string projectName;
+        public static string projectName = "";
         public NameProject()
         {
             InitializeComponent();
@@ -35,10 +35,10 @@ namespace Design_4
            
             string templ = Functionality.templateOfChoice;
             projectName = propertyNameTextBox.Text;
-            projectName = projectName.Replace(" ", "-");
-            string script = @"dotnet new --install c:\temp\webapi.template.dotnet6.01.1.0.1.nupkg";
-            RunScript(script);
-            script = @$"dotnet new {templ} -o c:\temp\Template\{projectName}"; 
+            projectName = projectName.Replace(" ", "_");
+            //string script = @"dotnet new --install c:\temp\webapi.template.dotnet6.01.1.0.1.nupkg";
+            //RunScript(script);
+            string script = @$"dotnet new {templ} -o c:\temp\Template\{projectName}"; 
             RunScript(script);
         }
 
