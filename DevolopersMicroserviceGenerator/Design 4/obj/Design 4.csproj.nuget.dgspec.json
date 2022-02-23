@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj": {}
+    "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj": {}
   },
   "projects": {
-    "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj": {
+    "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
+        "projectUniqueName": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
         "projectName": "Design 4",
-        "projectPath": "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
-        "packagesPath": "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\",
-        "outputPath": "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\obj\\",
+        "projectPath": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
+        "packagesPath": "c:\\udv\\nuget_packages",
+        "outputPath": "C:\\Udv\\My Own Shit\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Michael Rinkovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\mri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows7.0"
