@@ -1202,7 +1202,6 @@ C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Debug\
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Speech.dll
-C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\Design 4.csproj.AssemblyReference.cache
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\AddDbString.g.cs
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\AddNewServiceView.g.cs
 C:\Udv\My Own Shit\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Debug\net6.0-windows\AddNewTemplate.g.cs
