@@ -25,12 +25,12 @@ namespace Design_4
             InitializeComponent();
         }
 
-        AddNewServiceView testing = new AddNewServiceView();
+        //AddNewServiceView testing = new AddNewServiceView();
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-                 this.Content = (new AddNewServiceView());
+                 //this.Content = (new AddNewServiceView());
             //this.Content = testing.Content;
         }
     }

@@ -1,0 +1,19 @@
+c:\temp\selfcontainedExe2\Design 4.pdb
+c:\temp\selfcontainedExe2\runtimes\unix\lib\net6.0\Modules\Microsoft.PowerShell.Host\Microsoft.PowerShell.Host.psd1
+c:\temp\selfcontainedExe2\runtimes\unix\lib\net6.0\Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1
+c:\temp\selfcontainedExe2\runtimes\unix\lib\net6.0\Modules\Microsoft.PowerShell.Security\Microsoft.PowerShell.Security.psd1
+c:\temp\selfcontainedExe2\runtimes\unix\lib\net6.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\CimCmdlets\CimCmdlets.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Diagnostics\Diagnostics.format.ps1xml
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Diagnostics\Event.format.ps1xml
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Diagnostics\GetEvent.types.ps1xml
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Diagnostics\Microsoft.PowerShell.Diagnostics.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Host\Microsoft.PowerShell.Host.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Security\Microsoft.PowerShell.Security.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.WSMan.Management\Microsoft.WSMan.Management.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\Microsoft.WSMan.Management\WSMan.format.ps1xml
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\PSDiagnostics\PSDiagnostics.psd1
+c:\temp\selfcontainedExe2\runtimes\win\lib\net6.0\Modules\PSDiagnostics\PSDiagnostics.psm1
+c:\temp\selfcontainedExe2\Design 4.exe

@@ -20,11 +20,11 @@ namespace Design_4
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string textToReplace;
-        public string text;
+        public string textToReplace = "";
+        public string text = "";
         public string rootfolder = @"C:\Temp\Template";
-        public string efType;
-        public static string templateOfChoice;
+        public string efType = "";
+        public static string templateOfChoice = "";
 
         public static List<string> templates = new List<string>();
         public static List<string> props = new List<string>();

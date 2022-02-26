@@ -1,0 +1,30 @@
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Release\net6.0-windows\win-arm64\Design 4.deps.json
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\bin\Release\net6.0-windows\win-arm64\Design 4.runtimeconfig.json
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddDbString.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddNewServiceView.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddNewTemplate.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddPropertiesView.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\HomeView.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\MainWindow.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\MicroservicesView.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\NameProject.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\App.g.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4_MarkupCompile.cache
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4_MarkupCompile.lref
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddDbString.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddNewServiceView.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddNewTemplate.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\AddPropertiesView.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\HomeView.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\MainWindow.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\MicroservicesView.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\NameProject.baml
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.g.resources
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.AssemblyInfoInputs.cache
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.AssemblyInfo.cs
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.csproj.CoreCompileInputs.cache
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.genruntimeconfig.cache
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.dll
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\ref\Design 4.dll
+C:\Udv\MDManager\DevolopersMicroserviceGenerator\Design 4\obj\Release\net6.0-windows\win-arm64\Design 4.pdb
