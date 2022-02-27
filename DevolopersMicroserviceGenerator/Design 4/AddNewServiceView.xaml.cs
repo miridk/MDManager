@@ -50,17 +50,26 @@ namespace Design_4
             string r;
             string[] listOfr;
 
+            
+
             var runspace = RunspaceFactory.CreateRunspace();
             runspace.Open();
             using (var ps = PowerShell.Create())
             {
                 ps.Runspace = runspace;
-                ps.AddScript(script);
-                Task<PSDataCollection<PSObject>> psTask = ps.InvokeAsync();
+                var output = new PSDataCollection<PSObject>();
+                Task psTask = ps
+                    .AddScript($@"{script} -InDisconnectedSession")
+                    .InvokeAsync<PSObject, PSObject>(input: null, output);
+                psTask.GetAwaiter().GetResult();
 
-                for (int i = 0; i < psTask.GetAwaiter().GetResult().Count; i++)
+
+                //write all dotnet new to a file and read it from a c# command
+
+
+                for (int i = 0; i < output.Count; i++)
                 {
-                    r = Regex.Replace(psTask.GetAwaiter().GetResult()[i].ToString(), @"\s\s+", ",");
+                    r = Regex.Replace(output[i].ToString(), @"\s\s+", ",");
 
                     listOfr = r.Split(',');
 
