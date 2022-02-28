@@ -59,7 +59,11 @@ namespace Design_4
                 ps.Runspace = runspace;
                 var output = new PSDataCollection<PSObject>();
                 Task psTask = ps
-                    .AddScript($@"{script} -InDisconnectedSession")
+                    .AddScript($@"{script} | Out-String | Set-Content c:\temp\dotnetTemplates.txt")
+                    //.AddScript($@"Get-Process | Out-String | Set-Content c:\temp\dotnetTemplates.txt")
+                    //.AddScript($@"{script} -InDisconnectedSession")
+                    //.AddScript($@"Out-String")
+                    //.AddScript($@"Set-Content c:\temp\dotnetTemplates.txt")
                     .InvokeAsync<PSObject, PSObject>(input: null, output);
                 psTask.GetAwaiter().GetResult();
 

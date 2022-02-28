@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cLB5qxS89uKJCC6/9b9WE4uNqLR/kN1VFlWn/LHiQl/4vIi3CGVgm+Avf+KXNzc7AUfjOISR/blPHqD+dVZBqA==",
+  "dgSpecHash": "tVGdM129ODGDUAHFoHinCiTjdprLRM8K7WhLFt4XujiHKDUbmd4Be23qdU9f0na6KE/E85xJTTCQGw23s/+sJQ==",
   "success": true,
-  "projectFilePath": "C:\\Udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
+  "projectFilePath": "C:\\udv\\MDManager\\DevolopersMicroserviceGenerator\\Design 4\\Design 4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\cake.powershell\\1.0.1\\cake.powershell.1.0.1.nupkg.sha512",
     "C:\\Users\\Michael Rinkovski\\.nuget\\packages\\markdig.signed\\0.22.0\\markdig.signed.0.22.0.nupkg.sha512",
